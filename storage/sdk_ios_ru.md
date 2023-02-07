@@ -1,4 +1,4 @@
-﻿[Manual](#manual) | [API](#api)
+[Manual](#manual) | [API](#api)
 
 # Принципы работы SDK на платформе iOS<a name="manual"></a>
 
@@ -46,10 +46,14 @@ SDK подключается через **Swift Package Manager**.
 **let adManager:ADNetworkSDK** 
 
 Инициализируйте SDK.
-**adManager = ADNetworkSDK(key:<GAME_ID>, delegate: self)** 
-где key - это ключ, который разработчик получили в учетной записи рекламной сети
+** _ = ADNetworkSDK.shared**
+
+Задайте ключ доступа
+**ADNetworkSDK.shared.setKey(key)**
+где key - это ключ, который вы получили в учетной записи рекламной сети
 
 Добавьте поддержку протокола **ADNetworkSDKDelegate** для взаимодействия с SDK
+**ADNetworkSDK.shared.delegate = self**
 
 ## Работа с SDK<a name="workflow"></a>
 ### Методы класса ADNetworkSDK:
