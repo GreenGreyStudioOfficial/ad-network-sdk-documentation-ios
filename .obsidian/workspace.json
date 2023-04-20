@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "0502911218d06728",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef66dae90deab45a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89764ca8b334999d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "storage/sdk_ios_ru.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f7f74fe5d6d4173e",
+    "type": "split",
+    "children": [
+      {
+        "id": "27fdf07897df0927",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54af7fe2679357d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ebd59038e0200b0f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65191d2cd8d43550",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "568fc8e37fa1db4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b01a27d5595abef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e799d4dd445e720",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "storage/sdk_ios_ru.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ecd750eedd4df75",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "storage/sdk_ios_ru.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c661a0a78929b1a5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e853ea40a5b48f2a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "storage/sdk_ios_ru.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "89764ca8b334999d",
+  "lastOpenFiles": [
+    "README.md",
+    "storage/sdk_ios_ru.md"
+  ]
+}

@@ -7,6 +7,7 @@
 - [Инициализация библиотеки](#initialization)
 - [Работа с СДК](#workflow)
 - [Особенности работы системы кэширования](#cache)
+- [Адаптеры для сетей Ironsource и Applovin](#adapters)
 
 Этот SDK предназначен для показа рекламных видео клипов и web баннеров в приложениях на платформе iOS. СДК работает автономно, загружает видео контент и управляет им. Для его подключения достаточно импортировать публичный класс ADNetworkSDK с ключом авторизации в рекламной сети и назначить слушателя для получения событий из СДК
 
@@ -41,9 +42,6 @@ SDK подключается через **Swift Package Manager**.
 
 Импортируйте модуль SDK
 **import ADNetworkSDK** 
-
-Создайте объект для SDK
-**let adManager:ADNetworkSDK** 
 
 Инициализируйте SDK.
 ** _ = ADNetworkSDK.shared**
@@ -161,3 +159,17 @@ id - идентификатор показанной рекламы
 
 **optional func log (_ message:String)**
 Опциональный метод для отладочных сообщений
+
+
+# Адаптеры для сетей Ironsource и Applovin <a name="adapters"></a>
+
+Для показа рекламы через сети Ironsource и Applovin можно подключить специальные адаптеры.
+Для этого в проект нужно подлючить СДК нужной сети посредством Cocoapods следуя документации соответствующего СДК.
+Адаптеры следует загрузить из репозитория и добавить в проект вручную
+Адаптер Ironsource:
+[https://github.com/GreenGreyStudioOfficial/ADNetworkSDK_IronsourceAdapter_iOS](https://github.com/GreenGreyStudioOfficial/ADNetworkSDK_IronsourceAdapter_iOS)
+
+Адаптер Applovin:
+[https://github.com/GreenGreyStudioOfficial/ADNetworkSDK_ApplovinAdapter_iOS](https://github.com/GreenGreyStudioOfficial/ADNetworkSDK_ApplovinAdapter_iOS)
+
+Адаптер достаточно просто добавить в проект, СДК рекламной сети самостоятельно его использует. 
